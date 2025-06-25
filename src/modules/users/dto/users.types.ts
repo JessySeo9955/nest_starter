@@ -2,7 +2,7 @@ import {
   Tables,
   TablesInsert,
   TablesUpdate,
-} from '../../../database/database.types';
+} from '@database/database.types';
 
 export type Users = Tables<'users'>;
 export type NewUsers = TablesInsert<'users'>;
